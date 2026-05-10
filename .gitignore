@@ -1,7 +1,6 @@
 node_modules
 .env
-/generated/prisma
 
-/generated/prisma
-
-/generated/prisma
+apps/api/logs/*
+!apps/api/logs/.gitkeep
+apps/api/generated/prisma
