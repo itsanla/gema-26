@@ -4,3 +4,6 @@ node_modules
 apps/api/logs/*
 !apps/api/logs/.gitkeep
 apps/api/generated/prisma
+apps/api/dist
+apps/api/node_modules
+apps/api/src/generated
