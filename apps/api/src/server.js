@@ -4,10 +4,10 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 // Import routes
-import itemsRouter from './routes/items.routes.js';
+import itemsRouter from './routes/items.routes.ts';
 // Initialize Express app
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.API_PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 // ====================
 // MIDDLEWARE
